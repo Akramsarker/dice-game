@@ -1,0 +1,47 @@
+body {
+    font-family: 'Akaya Telivigala', cursive;
+    text-align: center;
+    background-color: rgb(82, 90, 73);
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+}
+
+h1 {
+    font-size: 4.2rem;
+    color: red;
+}
+
+p{
+    color: rgb(107, 167, 12);
+    font-size: 2rem;
+}
+
+.btn {
+    margin-top: 3rem;
+    padding: 1rem 1.8rem;
+    border-radius: 30px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    border: none;
+    color: #fff;
+    background: rgb(107, 167, 12);
+    box-shadow: inset 0 -10px 10px rgba(0, 0, 0, 0.3), inset 0 10px 10px rgba(255, 255, 255, 0.15), 0 15px 20px rgba(0, 0, 0, 0.2), 0 0 0 5px rgba(255, 255, 255, 0.15);
+    text-transform: uppercase;
+    transition: all .3s linear;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn:hover {
+    box-shadow: inset 0 -10px 10px rgba(0, 0, 0, 0.3), inset 0 10px 10px rgba(255, 255, 255, 0.15), 0 15px 20px rgba(0, 0, 0, 0.2), 0 0 0 7px rgba(255, 255, 255, 0.15);
+
+    background: rgb(102, 158, 11);
+}
